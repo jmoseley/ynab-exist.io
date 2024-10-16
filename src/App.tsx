@@ -7,7 +7,7 @@ import ConnectExist from './components/ConnectExist';
 import SelectAccounts from './components/SelectAccounts';
 
 // Replace with your actual Clerk publishable key
-const clerkPubKey = 'your_clerk_publishable_key';
+const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 function App() {
   return (
